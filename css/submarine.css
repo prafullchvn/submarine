@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.page-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.first-half,.second-half {
+  height: 50%;
+}
+
+.first-half > .sky-color {
+  height: 20%;
+  width: 100%;
+}
+
+.sky-color:nth-child(1) {
+  background-color:hsl(210deg 100% 74%);
+}
+
+.sky-color:nth-child(2) {
+  background-color:hsl(210deg 100% 78%);
+}
+
+.sky-color:nth-child(3) {
+  background-color:hsl(210deg 100% 82%);
+}
+
+.sky-color:nth-child(4) {
+  background-color:hsl(210deg 100% 86%);
+}
+
+.sky-color:nth-child(5) {
+  background-color:hsl(210deg 100% 90%);
+}
+
+.second-half{
+  background-color: dodgerblue;
+  font-size: 10em;
+  text-align: center;
+  font-weight: 800;
+  color: hsla(210, 65%, 40%,1);
+  text-shadow: 0.3px 0.6px 1.3px hsla(0, 0%,100%, 0.66);
+}
+
+.letter-i {
+  position: relative;
+  top: -72px;
+}
